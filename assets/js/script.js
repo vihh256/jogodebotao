@@ -2,6 +2,7 @@
 var cartas = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 
   13, 14, 15, 16, 17, 18, 19, 20];
   var correto = Math.floor(Math.random() * cartas.length);
+  console.log(correto);
 
 /// Certos e errrados ///
   for (let k = 1; k<=20; k++){
